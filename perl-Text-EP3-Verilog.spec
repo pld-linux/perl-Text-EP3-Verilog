@@ -27,7 +27,7 @@ Text::EP3::Verilog - rozszerzenie dla preprocesora EP3.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
