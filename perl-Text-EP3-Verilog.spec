@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	EP3-Verilog
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-EP3-Verilog perl module
 Summary(pl):	Modu³ perla Text-EP3-Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Text-EP3-Verilog - Verilog extension for the EP3 preprocessor.
 Text-EP3-Verilog - rozszerzenie dla preprocesora EP3.
 
 %prep
-%setup -q -n Text-EP3-Verilog-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
