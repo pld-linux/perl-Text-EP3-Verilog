@@ -5,12 +5,12 @@ Summary:	Text::EP3::Verilog perl module
 Summary(pl):	Modu³ perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	perl-Text-EP3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,7 +25,8 @@ Text::EP3::Verilog - rozszerzenie dla preprocesora EP3.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -39,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%dir %{perl_sitelib}/Text/EP3
-%{perl_sitelib}/Text/EP3/Verilog.pm
-%{perl_sitelib}/auto/Text/EP3/Verilog
+%dir %{perl_vendorlib}/Text/EP3
+%{perl_vendorlib}/Text/EP3/Verilog.pm
+%{perl_vendorlib}/auto/Text/EP3/Verilog
 %{_mandir}/man3/*
