@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	EP3-Verilog
+%define		pdir	Text
+%define		pnam	EP3-Verilog
 Summary:	Text::EP3::Verilog perl module
 Summary(pl):	Modu³ perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
