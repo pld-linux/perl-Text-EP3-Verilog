@@ -3,7 +3,7 @@ Summary:	Text-EP3-Verilog perl module
 Summary(pl):	Modu³ perla Text-EP3-Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
