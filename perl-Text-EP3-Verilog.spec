@@ -9,7 +9,7 @@ Summary:	Text::EP3::Verilog perl module
 Summary(pl):	Modu³ perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
-Release:	10
+Release:	11
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
