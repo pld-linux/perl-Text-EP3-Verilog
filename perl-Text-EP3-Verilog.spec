@@ -25,7 +25,7 @@ Text-EP3-Verilog - rozszerzenie dla preprocesora EP3.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
