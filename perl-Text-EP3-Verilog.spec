@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	EP3-Verilog
 Summary:	Text::EP3::Verilog perl module
-Summary(pl):	Modu≥ perla Text::EP3::Verilog
+Summary(pl.UTF-8):   Modu≈Ç perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
 Release:	11
@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Text::EP3::Verilog - Verilog extension for the EP3 preprocessor.
 
-%description -l pl
+%description -l pl.UTF-8
 Text::EP3::Verilog - rozszerzenie dla preprocesora EP3.
 
 %prep
