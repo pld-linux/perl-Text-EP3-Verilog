@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	EP3-Verilog
 Summary:	Text::EP3::Verilog perl module
-Summary(pl.UTF-8):   Moduł perla Text::EP3::Verilog
+Summary(pl.UTF-8):	Moduł perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
 Version:	1.00
 Release:	11
