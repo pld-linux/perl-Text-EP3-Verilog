@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Text
 %define		pnam	EP3-Verilog
+%include	/usr/lib/rpm/macros.perl
 Summary:	Text::EP3::Verilog perl module
 Summary(pl.UTF-8):	Moduł perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4f0a804e7aa348b44c6e23f42ae890ba
+URL:		http://search.cpan.org/dist/Text-EP3-Verilog/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
