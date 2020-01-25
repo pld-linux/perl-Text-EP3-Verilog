@@ -4,7 +4,6 @@
 
 %define		pdir	Text
 %define		pnam	EP3-Verilog
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text::EP3::Verilog perl module
 Summary(pl.UTF-8):	Moduł perla Text::EP3::Verilog
 Name:		perl-Text-EP3-Verilog
